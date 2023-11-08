@@ -33,7 +33,7 @@ public class Menu extends AppCompatActivity {
         });
 
         listarNotas.setOnClickListener(v -> {
-            Intent intent = new Intent(v.getContext(), Registro.class);
+            Intent intent = new Intent(v.getContext(), item_nota.class);
             startActivity(intent);
 
         });
