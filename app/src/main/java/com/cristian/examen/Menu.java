@@ -16,7 +16,7 @@ public class Menu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
+//////kindiwidwndindwinwindiwndinw
         btnRegistro = findViewById(R.id.button4);
         btnAgregarNota = findViewById(R.id.button3);
         listarNotas = findViewById(R.id.button5);
