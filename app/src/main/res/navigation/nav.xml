@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.cristian.examen.MainActivity"
+        android:label="MainActivity" />
+    <activity
+        android:id="@+id/registro"
+        android:name="com.cristian.examen.Registro"
+        android:label="activity_registro"
+        tools:layout="@layout/activity_registro" />
+    <activity
+        android:id="@+id/menu"
+        android:name="com.cristian.examen.Menu"
+        android:label="activity_menu"
+        tools:layout="@layout/activity_menu" />
+    <activity
+        android:id="@+id/agregarNota"
+        android:name="com.cristian.examen.AgregarNota"
+        android:label="activity_agregar_nota"
+        tools:layout="@layout/activity_agregar_nota" />
+</navigation>

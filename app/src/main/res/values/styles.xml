@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoginTextInputLayoutStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="FloatingLabelStyle">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+</resources>

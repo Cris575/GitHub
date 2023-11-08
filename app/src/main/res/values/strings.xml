@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Examen</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_registro">Registro</string>
+    <string name="notasCradas">Notas Creadas</string>
+
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="correoLogin">Correo</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="usuario">¿No tienes una cuenta?. Registrate</string>
+
+
+    <string name="AgregarNotas">Agregar</string>
+    <string name="ListasNotas">Mis Notas</string>
+    <string name="cerrarSecion">Salir</string>
+
+    <string name="Titulo_item">Titulo</string>
+    <string name="Descripccion_item">Descripccion</string>
+    <string name="Fecha_item">00/00/0000</string>
+    <string name="contraseñaEt">Contraseña</string>
+    <string name="correoEt">Correo Electronico</string>
+    <string name="Tengo_una_cuenta">Tengo una Cuenta</string>
+    <string name="registrarUsuario">Registrar</string>
+    <string name="nombreEt">Usuario</string>
+
+
 </resources>

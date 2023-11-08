@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_logo">50sp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="text_size_regsitro">40sp</dimen>
+    <dimen name="text_size_carga">30sp</dimen>
+    <dimen name="textV_size_marginTop">15dp</dimen>
+
+    <dimen name="margin_top_15dp">15dp</dimen>
+    <dimen name="margin">12dp</dimen>
+    <dimen name="margin_start">12dp</dimen>
+    <dimen name="margin_end">12dp</dimen>
+</resources>
