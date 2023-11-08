@@ -9,16 +9,6 @@
     tools:context=".Registro">
 
 
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/tvIndicacionRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/crearCuentaTxt"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:padding="10dp"
@@ -42,16 +32,6 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_marginTop="10dp"
-            android:visibility="gone"
-            app:lottie_autoPlay="true"
-            app:lottie_fileName="registro.json"
-            app:lottie_imageAssetsFolder="assets"
-            app:lottie_loop="true" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -119,25 +99,6 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:visibility="gone"
-            app:hintEnabled="false"
-            app:passwordToggleEnabled="true">
-
-            <EditText
-
-                android:id="@+id/etNombreConPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/icono_password"
-                android:drawablePadding="12dp"
-                android:hint="@string/confirmarContraseñaEt"
-                android:inputType="textPassword"
-                android:padding="20dp" />
-        </com.google.android.material.textfield.TextInputLayout>
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
